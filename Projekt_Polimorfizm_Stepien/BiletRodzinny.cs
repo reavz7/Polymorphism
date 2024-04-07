@@ -50,11 +50,8 @@ namespace Projekt_Polimorfizm_Stepien
                         Width = 200
                     }
                 };
-
-                // Możesz umieścić w kodzie QR dowolną zawartość, na przykład numer biletu
                 var qrCodeImage = qrWriter.Write(numerBiletu);
 
-                // Konwersja System.Drawing.Image na iTextSharp.text.Image
                 using (MemoryStream ms = new MemoryStream())
                 {
                     qrCodeImage.Save(ms, System.Drawing.Imaging.ImageFormat.Png);

@@ -80,7 +80,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(373, 17);
+            this.label1.Location = new System.Drawing.Point(377, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(179, 39);
             this.label1.TabIndex = 3;
@@ -92,7 +92,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.label2.Location = new System.Drawing.Point(410, 56);
+            this.label2.Location = new System.Drawing.Point(414, 57);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(105, 16);
             this.label2.TabIndex = 4;

@@ -55,10 +55,10 @@ namespace Projekt_Polimorfizm_Stepien
                     }
                 };
 
-                // Możesz umieścić w kodzie QR dowolną zawartość, na przykład numer biletu
+                // tutaj do kodu qr przypisalem to zeby jego "wartosc" odpowiadala zmiennej numerubiletu ktory jest generowany wyzej
                 var qrCodeImage = qrWriter.Write(numerBiletu);
 
-                // Konwersja System.Drawing.Image na iTextSharp.text.Image
+                // Konwersja System.Drawing.Image na iTextSharp.text.Image (znalazlem to na stackoverflow)
                 using (MemoryStream ms = new MemoryStream())
                 {
                     qrCodeImage.Save(ms, System.Drawing.Imaging.ImageFormat.Png);

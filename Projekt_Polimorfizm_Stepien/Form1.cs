@@ -85,13 +85,12 @@ namespace Projekt_Polimorfizm_Stepien
             Bilet bilet = null;
             switch (biletId)
             {
-                case "1": // Załóżmy, że "1" to ID dla BiletNormalny
+                case "1": // "1" to ID dla BiletNormalny
                     bilet = new BiletNormalny();
                     break;
                 case "2": // i tak dalej dla pozostałych ID biletów
                     bilet = new BiletUlgowy();
                     break;
-                // Dodaj pozostałe przypadki dla różnych ID biletów
                 case "3":
                     bilet = new BiletRodzinny();
                     break;
